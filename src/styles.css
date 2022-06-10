@@ -6,16 +6,37 @@ html, body {
   margin: 0;
   border: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #000;
 }
 
 main {
   margin: auto;
-  width: 50%;
   padding: 20px;
 }
 
 main > h1 {
   text-align: center;
   font-size: 3.5em;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.voucher-code {
+  position: absolute;
+  bottom: 170px;
+  left: 505px;
+  text-shadow: 3px 3px 0 gray;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #FF6829;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
 }
